@@ -12,7 +12,7 @@ class QuickUnion
     return if connected(p,q)
     i = root(p)
     j = root(q)
-    @ids[p] = j
+    @ids[i] = j
   end
 
   def root(p)
